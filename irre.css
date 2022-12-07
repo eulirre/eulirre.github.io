@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    color: antiquewhite;
+    padding: 0%;
+    font-family: cursive;
+}
+
+body{
+    background-color: black;
+}
+
+div{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;  
+  }
+
+.banner{
+    text-align: center;
+    background-color: black;
+    animation: padsy 3000ms forwards;
+    font-size: xx-large;
+}
+
+.toolbar{
+    display: grid;
+    background-color: rgb(49, 49, 49);
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.toolbar div{
+    transition: all 1s;
+    animation: padsy 1500ms forwards;
+}
+
+.toolbar div:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.intro{
+    font-size: xx-large;
+    text-align: center;
+    animation: padsy 3000ms forwards;
+}
+
+
+
+
+
+
+
+
+@keyframes  padsy{
+    from {
+    padding: 0%
+    }
+    
+    to {
+    padding: 6%;
+    }
+    }
+
+
+
+
+
+
